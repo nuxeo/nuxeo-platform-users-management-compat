@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: NuxeoWeb
+Bundle-SymbolicName: org.nuxeo.ecm.users.management.compat
+Bundle-Localization: plugin
+Bundle-Vendor: Nuxeo
+Bundle-Category: web
+Nuxeo-Component: OSGI-INF/actions-contrib.xml
+Require-Bundle: org.nuxeo.ecm.platform.ui,
+ org.nuxeo.ecm.webapp.base,
+ org.nuxeo.ecm.webapp.core
