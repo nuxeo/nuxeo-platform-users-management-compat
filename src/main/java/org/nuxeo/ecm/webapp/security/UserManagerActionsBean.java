@@ -503,12 +503,6 @@ public class UserManagerActionsBean implements UserManagerActions {
         return serializableMap;
     }
 
-    @Factory(value = "notReadOnly", scope = APPLICATION)
-    public boolean isNotReadOnly() {
-        return !"true".equals(Framework.getProperty(
-                "org.nuxeo.ecm.webapp.readonly.mode", "false"));
-    }
-
     public List<String> getUserVirtualGroups(String userId) throws Exception {
 
         NuxeoPrincipal principal = userManager.getPrincipal(userId);
