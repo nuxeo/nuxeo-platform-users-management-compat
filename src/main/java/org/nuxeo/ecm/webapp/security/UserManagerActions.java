@@ -118,8 +118,6 @@ public interface UserManagerActions extends Serializable {
     // XXX: never used, not tested
     String clearSearchAdvanced() throws ClientException;
 
-    boolean isNotReadOnly();
-
     List<String> getUserVirtualGroups(String userId) throws Exception;
 
 }
