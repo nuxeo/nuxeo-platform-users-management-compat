@@ -1,2 +1,0 @@
-This module is deprecated as of Nuxeo 5.4.2, as  the Users and Groups management
-has been redone and implemented in the Admin Center.
