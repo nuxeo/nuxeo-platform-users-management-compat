@@ -65,9 +65,9 @@
   </repositories>
 
   <scm>
-    <connection>scm:hg:http://hg.nuxeo.org/addons/nuxeo-platform-users-management-compat</connection>
-    <developerConnection>scm:hg:https://hg.nuxeo.org/addons/nuxeo-platform-users-management-compat</developerConnection>
-    <url>http://hg.nuxeo.org/addons/nuxeo-platform-users-management-compat</url>
+    <connection>scm:git:git://github.com/nuxeo/nuxeo-platform-users-management-compat.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:nuxeo/nuxeo-platform-users-management-compat.git</developerConnection>
+    <url>https://github.com/nuxeo/nuxeo-platform-users-management-compat</url>
   </scm>
 
 </project>
