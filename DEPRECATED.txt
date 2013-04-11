@@ -1,2 +1,2 @@
-This module is deprecated as of Nuxeo 5.4.2.1-SNAPSHOT, as  the Users and Groups management
+This module is deprecated as of Nuxeo 5.4.2-HF32, as  the Users and Groups management
 has been redone and implemented in the Admin Center.
